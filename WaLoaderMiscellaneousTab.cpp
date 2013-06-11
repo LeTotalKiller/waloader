@@ -10,6 +10,8 @@ WaLoaderMiscellaneousTab::WaLoaderMiscellaneousTab() : QWidget()
 
     m_miscellaneousTabLayout = new QVBoxLayout;
     m_miscellaneousTabLayout->addLayout(m_languageSelecterLayout);
+
+    setLayout(m_miscellaneousTabLayout);
 }
 
 QVBoxLayout* WaLoaderMiscellaneousTab::getTabLayout()

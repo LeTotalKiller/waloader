@@ -22,7 +22,7 @@ class WaLoaderWindow : public QTabWidget
     Q_OBJECT
 
     public:
-    WaLoaderWindow();
+    WaLoaderWindow(qint64, qint64);
 
     public slots:
     void loadGame();
@@ -30,6 +30,9 @@ class WaLoaderWindow : public QTabWidget
     private:
     QGridLayout *m_executableTabQuitButtonsLayout;
     QGridLayout *m_miscellaneousTabQuitButtonsLayout;
+
+    qint64 m_xSize;
+    qint64 m_ySize;
 
     QPushButton *m_miscellaneousTabStartGameButton;
     QPushButton *m_executableTabStartGameButton;
