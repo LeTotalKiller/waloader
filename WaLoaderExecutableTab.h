@@ -48,6 +48,15 @@ class WaLoaderExecutableTab : public QWidget
     QCheckBox *m_quietMode;
     QCheckBox *m_hostJoin;
 
+    QCheckBox *m_replayPlay;
+    QCheckBox *m_replayPlayAt;
+    QCheckBox *m_replayGetMap;
+    QCheckBox *m_replayGetScheme;
+    QCheckBox *m_replayGetVideo;
+    QCheckBox *m_replayGetLog;
+    QCheckBox *m_replaySanitize;
+    QCheckBox *m_replayRepair;
+
     QFormLayout *m_wormKitArgsLineLayout;
 
     QGridLayout *m_regularArgumentsLayout;
@@ -82,6 +91,7 @@ class WaLoaderExecutableTab : public QWidget
     QStringList m_wormKitArgsList;
 
     QVBoxLayout *m_executableTabLayout;
+    QVBoxLayout *m_replayActionsLayout;
 };
 
 #endif // WALOADEREXECUTABLETAB_H

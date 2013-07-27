@@ -5,6 +5,8 @@
 #include <QComboBox>
 #include <QFormLayout>
 #include <QLabel>
+#include <QMessageBox>
+#include <QSettings>
 #include <QVBoxLayout>
 #include <QWidget>
 
@@ -15,6 +17,9 @@ class WaLoaderMiscellaneousTab : public QWidget
     public:
     WaLoaderMiscellaneousTab();
     QVBoxLayout* getTabLayout();
+
+    public slots:
+    void changeLanguage(int);
 
     private:
     QComboBox *m_languagesList;
@@ -30,6 +35,8 @@ class WaLoaderMiscellaneousTab : public QWidget
     QLabel *m_englishTranslatorLabel;
     QLabel *m_frenchTranslationLabel;
     QLabel *m_frenchTranslatorLabel;
+
+    QSettings *m_programGenericSettings;
 
     QVBoxLayout *m_miscellaneousTabLayout;
 };

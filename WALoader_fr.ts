@@ -82,37 +82,68 @@
         <translation>Paramètres &amp;supplémentaires</translation>
     </message>
     <message>
-        <location filename="WaLoaderExecutableTab.cpp" line="108"/>
+        <location filename="WaLoaderExecutableTab.cpp" line="94"/>
+        <source>Play</source>
+        <translation>Lire</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderExecutableTab.cpp" line="115"/>
         <source>Select the game executable to run</source>
         <comment>Executable choosing window title.</comment>
         <translation>Exécutable à utiliser</translation>
     </message>
     <message>
-        <location filename="WaLoaderExecutableTab.cpp" line="108"/>
+        <location filename="WaLoaderExecutableTab.cpp" line="115"/>
         <source>Applications (*.exe)</source>
         <comment>Executable choosing window file format.</comment>
         <translation>Applications (*.exe)</translation>
     </message>
 </context>
 <context>
+    <name>WaLoaderMiscellaneousTab</name>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="19"/>
+        <source>Select another language</source>
+        <translation>Sélectionner une autre langue</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="53"/>
+        <source>Note</source>
+        <translation>Note</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="53"/>
+        <source>This change will apply next time you start this program.</source>
+        <translation>Ce changement s&apos;appliquera au prochain démarrage du programme.</translation>
+    </message>
+</context>
+<context>
     <name>WaLoaderWindow</name>
     <message>
-        <location filename="WaLoaderWindow.cpp" line="13"/>
+        <location filename="WaLoaderWindow.cpp" line="17"/>
         <source>&amp;Executable</source>
         <comment>Executable settings.</comment>
         <translation>&amp;Exécutable</translation>
     </message>
     <message>
-        <location filename="WaLoaderWindow.cpp" line="15"/>
+        <location filename="WaLoaderWindow.cpp" line="19"/>
+        <location filename="WaLoaderWindow.cpp" line="36"/>
         <source>Start the game</source>
         <comment>Quits the loader and starts the game.</comment>
         <translation>Lancer le jeu</translation>
     </message>
     <message>
-        <location filename="WaLoaderWindow.cpp" line="19"/>
+        <location filename="WaLoaderWindow.cpp" line="23"/>
+        <location filename="WaLoaderWindow.cpp" line="40"/>
         <source>Quit</source>
         <comment>Quits the loader.</comment>
         <translation>Quitter</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderWindow.cpp" line="34"/>
+        <source>&amp;Miscellaneous</source>
+        <comment>Program language selection and about the program.</comment>
+        <translation>&amp;Divers</translation>
     </message>
 </context>
 </TS>

@@ -91,6 +91,13 @@ WaLoaderExecutableTab::WaLoaderExecutableTab() : QWidget() // General tab's cons
 
     m_replayArgumentsGroupBox->setLayout(m_replayArgumentsLayout);
 
+    m_replayPlay = new QCheckBox(tr("Play"));
+
+    m_replayActionsLayout = new QVBoxLayout;
+    m_replayActionsLayout->addWidget(m_replayPlay);
+
+    m_replayActionGroupBox->setLayout(m_replayActionsLayout);
+
     // 4. Outputting on the screen
     m_executableTabLayout = new QVBoxLayout;
 
