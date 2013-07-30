@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    qint64 xSize(400), ySize(400);
+    qint64 xSize(400), ySize(440);
 
     QString locale = QLocale::system().name().section('_', 0, 0);
     QString programLanguage = locale;
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         programGenericSettings.beginGroup("Program");
         programGenericSettings.setValue("Language", locale);
         programGenericSettings.setValue("XSize", 400);
-        programGenericSettings.setValue("YSize", 400);
+        programGenericSettings.setValue("YSize", 440);
         programGenericSettings.endGroup();
     }
     else

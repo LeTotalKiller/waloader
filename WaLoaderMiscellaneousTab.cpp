@@ -19,16 +19,20 @@ WaLoaderMiscellaneousTab::WaLoaderMiscellaneousTab() : QWidget()
     m_selectAnotherLanguageLabel = new QLabel(tr("Select another language"));
 
     m_languagesList = new QComboBox;
-    m_languagesList->addItem("English");
-    m_languagesList->addItem("Français");
+    m_languagesList->addItem("English (LeTotalKiller)");
+    m_languagesList->addItem("Français (LeTotalKiller)");
     m_languagesList->setCurrentIndex(currentLanguageIndex);
     QObject::connect(m_languagesList, SIGNAL(currentIndexChanged(int)), this, SLOT(changeLanguage(int)));
 
     m_languageSelecterLayout = new QFormLayout;
     m_languageSelecterLayout->addRow(m_selectAnotherLanguageLabel, m_languagesList);
 
+    m_aboutProgram = new QTextEdit("WA Loader - v0.1.1.8 (30/07/2013).<br /><br />" + tr("Powered by Qt 5.1.0.") + "<br /><br />" + tr("Made by LeTotalKiller.") + "<br /><br />" + tr("Special thanks to (sorted in alphabetical order):") + "<br />Muzer<br />Piki1802<br />ZexorZ");
+    m_aboutProgram->setReadOnly(true);
+
     m_miscellaneousTabLayout = new QVBoxLayout;
     m_miscellaneousTabLayout->addLayout(m_languageSelecterLayout);
+    m_miscellaneousTabLayout->addWidget(m_aboutProgram);
 
     setLayout(m_miscellaneousTabLayout);
 }

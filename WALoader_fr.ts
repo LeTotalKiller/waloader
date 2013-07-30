@@ -107,12 +107,27 @@
         <translation>Sélectionner une autre langue</translation>
     </message>
     <message>
-        <location filename="WaLoaderMiscellaneousTab.cpp" line="53"/>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="30"/>
+        <source>Powered by Qt 5.1.0.</source>
+        <translation>Logiciel créé avec le framework Qt, version 5.1.0.</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="30"/>
+        <source>Made by LeTotalKiller.</source>
+        <translation>Logiciel créé par LeTotalKiller.</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="30"/>
+        <source>Special thanks to (sorted in alphabetical order):</source>
+        <translation>Remerciements (par ordre alphabétique):</translation>
+    </message>
+    <message>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="57"/>
         <source>Note</source>
         <translation>Note</translation>
     </message>
     <message>
-        <location filename="WaLoaderMiscellaneousTab.cpp" line="53"/>
+        <location filename="WaLoaderMiscellaneousTab.cpp" line="57"/>
         <source>This change will apply next time you start this program.</source>
         <translation>Ce changement s&apos;appliquera au prochain démarrage du programme.</translation>
     </message>

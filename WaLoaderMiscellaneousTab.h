@@ -4,9 +4,11 @@
 #include <QApplication>
 #include <QComboBox>
 #include <QFormLayout>
+#include <QGridLayout>
 #include <QLabel>
 #include <QMessageBox>
 #include <QSettings>
+#include <QTextEdit>
 #include <QVBoxLayout>
 #include <QWidget>
 
@@ -23,21 +25,10 @@ class WaLoaderMiscellaneousTab : public QWidget
 
     private:
     QComboBox *m_languagesList;
-
     QFormLayout *m_languageSelecterLayout;
-
     QLabel *m_selectAnotherLanguageLabel;
-    QLabel *m_programVersionLabel;
-    QLabel *m_poweredByLabel;
-    QLabel *m_authorAndSpecialThanksLabel;
-    QLabel *m_translationsLabel;
-    QLabel *m_englishTranslationLabel;
-    QLabel *m_englishTranslatorLabel;
-    QLabel *m_frenchTranslationLabel;
-    QLabel *m_frenchTranslatorLabel;
-
     QSettings *m_programGenericSettings;
-
+    QTextEdit *m_aboutProgram;
     QVBoxLayout *m_miscellaneousTabLayout;
 };
 
